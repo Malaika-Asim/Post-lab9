@@ -3,17 +3,6 @@ int arr[100];
 void bookseat1();
 void bookseat2();
 int count;
-int main()
-{
-	for (int i = 0; i < 100; i++)
-	{
-		arr[i] = 0;
-	}
-	printf("\t\t\t\t\tAirline Reservation System");
-	printf("\n\t\t\t*********************************************************");
-	printf("\n\nChoose from the given Options:-");
-	menu_ticket();
-}
 void bookseat1(void)
 {
 	//For First Class
